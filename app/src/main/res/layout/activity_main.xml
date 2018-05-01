@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="89dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Hint"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:visibility="visible"
+            tools:text="@string/Hint" />
+
+        <EditText
+            android:id="@+id/Red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mine"
+            android:background="@android:color/holo_red_light"
+            android:ems="10"
+            android:hint="@string/Red"
+            android:inputType="number"
+            android:padding="@dimen/mine" />
+
+        <EditText
+            android:id="@+id/Green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mine"
+            android:background="@android:color/holo_green_light"
+            android:ems="10"
+            android:hint="@string/Green"
+            android:inputType="number"
+            android:padding="@dimen/mine" />
+
+        <EditText
+            android:id="@+id/Blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mine"
+            android:background="@android:color/holo_blue_dark"
+            android:ems="10"
+            android:hint="@string/Blue"
+            android:inputType="number"
+            android:padding="@dimen/mine" />
+
+        <Button
+            android:id="@+id/Generate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Generate" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
