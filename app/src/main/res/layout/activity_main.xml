@@ -21,9 +21,9 @@
         <TextView
             android:id="@+id/Title"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="34dp"
             android:text="@string/Hint"
-            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
             android:visibility="visible"
             tools:text="@string/Hint" />
 

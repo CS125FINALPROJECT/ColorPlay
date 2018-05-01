@@ -12,7 +12,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class ColorEncoder2 extends Activity {
+public class ColorPalette extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

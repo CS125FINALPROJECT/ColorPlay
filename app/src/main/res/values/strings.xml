@@ -22,4 +22,10 @@
     </string>
     <string name="title_activity_color_encoder">ColorEncoder</string>
     <string name="title_activity_color_encoder2">ColorEncoder2</string>
+
+    <string name="title_activity_first_page">FirstPage</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
 </resources>
